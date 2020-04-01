@@ -1,0 +1,1 @@
+find /usr/local/apache-tomcat-7.0.82/logs/ -mtime +7 -name "*.*" -exec rm -rf {} \;
